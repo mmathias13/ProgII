@@ -1,0 +1,10 @@
+/usr/bin/ld: Resultados/Matheus/ponto/main.o: in function `main':
+main.c:(.text+0x46): undefined reference to `pto_cria'
+/usr/bin/ld: main.c:(.text+0xd5): undefined reference to `pto_acessa_x'
+/usr/bin/ld: main.c:(.text+0x126): undefined reference to `pto_acessa_y'
+/usr/bin/ld: main.c:(.text+0x19e): undefined reference to `pto_atribui_x'
+/usr/bin/ld: main.c:(.text+0x1bd): undefined reference to `pto_atribui_y'
+/usr/bin/ld: main.c:(.text+0x1d4): undefined reference to `pto_acessa_x'
+/usr/bin/ld: main.c:(.text+0x225): undefined reference to `pto_acessa_y'
+/usr/bin/ld: main.c:(.text+0x27f): undefined reference to `pto_distancia'
+collect2: error: ld returned 1 exit status
