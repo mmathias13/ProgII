@@ -132,6 +132,7 @@ void ImprimeTabuleiro(tTabuleiro tabuleiro)
     // Falta fazer a verificação do tabuleiro cheio.
     for (int i = 0; i < TAM_TABULEIRO; i++)
     {
+        printf("\t");
         for (int j = 0; j < TAM_TABULEIRO; j++)
         {
             printf("%c", tabuleiro.posicoes[i][j]);

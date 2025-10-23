@@ -32,7 +32,7 @@ tJogador CriaJogador(int idJogador)
  */
 tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
 {
-
+    
 }
 
 /**
@@ -43,7 +43,128 @@ tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
  *
  * @return 1 se o jogador venceu, 0 caso contrário.
  */
-int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro){
+int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro)
+{
     // Verificação se o jogador 1 venceu:
-    
+    if (jogador.id == ID_JOGADOR_1)
+    {
+        // Verificação de vitória para primeira coluna:
+        if ((tabuleiro.posicoes[0][0] == tabuleiro.peca1) &&
+            (tabuleiro.posicoes[1][0] == tabuleiro.peca1) &&
+            (tabuleiro.posicoes[2][0] == tabuleiro.peca1))
+        {
+            return 1;
+            // Verificação de vitória para segunda coluna:
+        }
+        else if ((tabuleiro.posicoes[0][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[2][1] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+        // Verificação para vitória para terceira coluna:
+        else if ((tabuleiro.posicoes[0][2] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[1][2] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[2][2] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+        // Verificação para vitória para primeira linha:
+        else if ((tabuleiro.posicoes[0][0] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[0][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[0][2] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+        // Verificação para vitória para segunda linha:
+        else if ((tabuleiro.posicoes[1][0] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[1][2] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+        // Verificação para vitória para terceira linha:
+        else if ((tabuleiro.posicoes[2][0] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[2][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[2][2] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+        // Verificação para vitória da diagonal (esquerda para direita):
+        else if ((tabuleiro.posicoes[0][0] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[2][2] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+        // Verificação para vitória da diagonal (direita para esquerda):
+        else if ((tabuleiro.posicoes[0][2] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca1) &&
+                 (tabuleiro.posicoes[2][0] == tabuleiro.peca1))
+        {
+            return 1;
+        }
+    }
+    // Verificação de vitória para o jogador 2:
+    else
+    {
+        // Verificação de vitória para primeira coluna:
+        if ((tabuleiro.posicoes[0][0] == tabuleiro.peca2) &&
+            (tabuleiro.posicoes[1][0] == tabuleiro.peca2) &&
+            (tabuleiro.posicoes[2][0] == tabuleiro.peca2))
+        {
+            return 1;
+            // Verificação de vitória para segunda coluna:
+        }
+        else if ((tabuleiro.posicoes[0][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[2][1] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+        // Verificação para vitória para terceira coluna:
+        else if ((tabuleiro.posicoes[0][2] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[1][2] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[2][2] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+        // Verificação para vitória para primeira linha:
+        else if ((tabuleiro.posicoes[0][0] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[0][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[0][2] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+        // Verificação para vitória para segunda linha:
+        else if ((tabuleiro.posicoes[1][0] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[1][2] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+        // Verificação para vitória para terceira linha:
+        else if ((tabuleiro.posicoes[2][0] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[2][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[2][2] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+        // Verificação para vitória da diagonal (esquerda para direita):
+        else if ((tabuleiro.posicoes[0][0] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[2][2] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+        // Verificação para vitória da diagonal (direita para esquerda):
+        else if ((tabuleiro.posicoes[0][2] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[1][1] == tabuleiro.peca2) &&
+                 (tabuleiro.posicoes[2][0] == tabuleiro.peca2))
+        {
+            return 1;
+        }
+    }
+
+    return 0;
 }
