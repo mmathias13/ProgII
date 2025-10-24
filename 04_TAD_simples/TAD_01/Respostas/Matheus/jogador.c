@@ -1,4 +1,5 @@
 #include "jogador.h"
+#include "jogada.h"
 
 /**
  * Cria um jogador com o id passado como parâmetro e retorna o jogador criado.
@@ -32,7 +33,24 @@ tJogador CriaJogador(int idJogador)
  */
 tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
 {
-    
+    tJogada jogada;
+
+    printf("Digite uma posicao (x e y):\n");
+
+    jogada = LeJogada();
+
+    if (FoiJogadaBemSucedida(jogada))
+    {
+        // Implementar se a jogada foi bem-sucedida
+    }
+    else if (!(EstaLivrePosicaoTabuleiro(tabuleiro, jogada.x, jogada.y)))
+    {
+        printf("Posicao invalida (OCUPADA - [%d,%d] )\n", jogada.x, jogada.y);
+    }
+    else
+    {
+        printf("Posicao invalida (FORA DO TABULEIRO - [%d %d] )!\n", jogada.x, jogada.y);
+    }
 }
 
 /**

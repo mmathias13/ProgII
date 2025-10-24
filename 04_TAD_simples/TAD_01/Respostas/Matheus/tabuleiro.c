@@ -60,7 +60,7 @@ int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro)
     {
         for (int j = 0; j < TAM_TABULEIRO; j++)
         {
-            if (tabuleiro.posicoes[i][j] == '-')
+            if (tabuleiro.posicoes[i][j] == tabuleiro.pecaVazio)
             {
                 return 1;
             }
