@@ -8,6 +8,7 @@
 tEleicao InicializaEleicao()
 {
     tEleicao eleicao;
+    int qtdCargos;
 
     eleicao.presidentes[MAX_CANDIDATOS_POR_CARGO]; // Verificar
     eleicao.totalPresidentes = 0;
@@ -24,7 +25,12 @@ tEleicao InicializaEleicao()
     eleicao.eleitores[MAX_ELEITORES];
     eleicao.totalEleitores = 0;
 
-    scanf("%d", )
+    scanf("%d\n", &qtdCargos);
+
+    for (int i = 0; i < qtdCargos; i++)
+    {
+        
+    }
 }
 
 /**
