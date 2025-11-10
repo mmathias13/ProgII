@@ -1,0 +1,37 @@
+vetor.c: In function ‘LeDadosParaVetor’:
+vetor.c:16:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   16 |         scanf("%d", vet[i]);
+      |         ^~~~~
+vetor.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    2 | #include <limits.h>
+  +++ |+#include <stdio.h>
+    3 | 
+vetor.c:16:9: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   16 |         scanf("%d", vet[i]);
+      |         ^~~~~
+vetor.c:16:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+vetor.c:16:17: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   16 |         scanf("%d", vet[i]);
+      |                ~^   ~~~~~~
+      |                 |      |
+      |                 int *  int
+vetor.c: In function ‘ImprimeDadosDoVetor’:
+vetor.c:32:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   32 |         printf("%d ", n[i]);
+      |         ^~~~~~
+vetor.c:32:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+vetor.c:32:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+vetor.c:32:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+vetor.c:34:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   34 |     printf("\n");
+      |     ^~~~~~
+vetor.c:34:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+vetor.c: In function ‘OrdeneCrescente’:
+vetor.c:72:40: warning: passing argument 3 of ‘TrocaSeAcharMenor’ makes pointer from integer without a cast [-Wint-conversion]
+   72 |         TrocaSeAcharMenor(vet, tam, vet[i]);
+      |                                     ~~~^~~
+      |                                        |
+      |                                        int
+vetor.c:49:48: note: expected ‘int *’ but argument is of type ‘int’
+   49 | void TrocaSeAcharMenor(int *vet, int tam, int *paraTrocar)
+      |                                           ~~~~~^~~~~~~~~~

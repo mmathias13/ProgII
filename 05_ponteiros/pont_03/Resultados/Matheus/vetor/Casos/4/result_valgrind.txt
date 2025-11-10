@@ -1,0 +1,48 @@
+==72184== Memcheck, a memory error detector
+==72184== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==72184== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==72184== Command: Resultados/Matheus/vetor/prog Resultados/Matheus/vetor/Casos/4
+==72184== Parent PID: 72183
+==72184== 
+==72184== Use of uninitialised value of size 8
+==72184==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
+==72184==    by 0x48C5352: scanf (scanf.c:38)
+==72184==    by 0x109398: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==72184==    by 0x1092EF: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==72184== 
+==72184== Invalid write of size 4
+==72184==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
+==72184==    by 0x48C5352: scanf (scanf.c:38)
+==72184==    by 0x109398: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==72184==    by 0x1092EF: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==72184==  Address 0xfefffbb0 is not stack'd, malloc'd or (recently) free'd
+==72184== 
+==72184== 
+==72184== Process terminating with default action of signal 11 (SIGSEGV)
+==72184==  Access not within mapped region at address 0xFEFFFBB0
+==72184==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
+==72184==    by 0x48C5352: scanf (scanf.c:38)
+==72184==    by 0x109398: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==72184==    by 0x1092EF: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==72184==  If you believe this happened as a result of a stack
+==72184==  overflow in your program's main thread (unlikely but
+==72184==  possible), you can try to increase the size of the
+==72184==  main thread stack using the --main-stacksize= flag.
+==72184==  The main thread stack size used in this run was 8388608.
+==72184== 
+==72184== HEAP SUMMARY:
+==72184==     in use at exit: 4,096 bytes in 1 blocks
+==72184==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==72184== 
+==72184== LEAK SUMMARY:
+==72184==    definitely lost: 0 bytes in 0 blocks
+==72184==    indirectly lost: 0 bytes in 0 blocks
+==72184==      possibly lost: 0 bytes in 0 blocks
+==72184==    still reachable: 4,096 bytes in 1 blocks
+==72184==         suppressed: 0 bytes in 0 blocks
+==72184== Reachable blocks (those to which a pointer was found) are not shown.
+==72184== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==72184== 
+==72184== Use --track-origins=yes to see where uninitialised values come from
+==72184== For lists of detected and suppressed errors, rerun with: -s
+==72184== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

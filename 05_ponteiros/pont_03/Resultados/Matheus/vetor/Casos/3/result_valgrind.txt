@@ -1,0 +1,48 @@
+==71942== Memcheck, a memory error detector
+==71942== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==71942== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==71942== Command: Resultados/Matheus/vetor/prog Resultados/Matheus/vetor/Casos/3
+==71942== Parent PID: 71941
+==71942== 
+==71942== Use of uninitialised value of size 8
+==71942==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
+==71942==    by 0x48C5352: scanf (scanf.c:38)
+==71942==    by 0x109398: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==71942==    by 0x1092EF: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==71942== 
+==71942== Invalid write of size 4
+==71942==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
+==71942==    by 0x48C5352: scanf (scanf.c:38)
+==71942==    by 0x109398: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==71942==    by 0x1092EF: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==71942==  Address 0x800000 is not stack'd, malloc'd or (recently) free'd
+==71942== 
+==71942== 
+==71942== Process terminating with default action of signal 11 (SIGSEGV)
+==71942==  Access not within mapped region at address 0x800000
+==71942==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
+==71942==    by 0x48C5352: scanf (scanf.c:38)
+==71942==    by 0x109398: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==71942==    by 0x1092EF: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/vetor/prog)
+==71942==  If you believe this happened as a result of a stack
+==71942==  overflow in your program's main thread (unlikely but
+==71942==  possible), you can try to increase the size of the
+==71942==  main thread stack using the --main-stacksize= flag.
+==71942==  The main thread stack size used in this run was 8388608.
+==71942== 
+==71942== HEAP SUMMARY:
+==71942==     in use at exit: 4,096 bytes in 1 blocks
+==71942==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==71942== 
+==71942== LEAK SUMMARY:
+==71942==    definitely lost: 0 bytes in 0 blocks
+==71942==    indirectly lost: 0 bytes in 0 blocks
+==71942==      possibly lost: 0 bytes in 0 blocks
+==71942==    still reachable: 4,096 bytes in 1 blocks
+==71942==         suppressed: 0 bytes in 0 blocks
+==71942== Reachable blocks (those to which a pointer was found) are not shown.
+==71942== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==71942== 
+==71942== Use --track-origins=yes to see where uninitialised values come from
+==71942== For lists of detected and suppressed errors, rerun with: -s
+==71942== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
