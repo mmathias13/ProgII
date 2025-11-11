@@ -1,0 +1,20 @@
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+0 - Natal - 25/12/2023
+1 - @ƒ - -1/00/0000
+2 -  - 00/00/0000
+3 -  - 31/00/0000
+4 -  - 00/00/0000
+5 -  - 00/00/0000
+Saindo...

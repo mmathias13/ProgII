@@ -1,0 +1,6 @@
+==98889== Memcheck, a memory error detector
+==98889== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==98889== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==98889== Command: Resultados/Matheus/evento/prog Resultados/Matheus/evento/Casos/7
+==98889== Parent PID: 98888
+==98889== 

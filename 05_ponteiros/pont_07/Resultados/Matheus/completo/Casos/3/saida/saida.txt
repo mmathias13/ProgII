@@ -1,0 +1,74 @@
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+0 - Natal - 25/12/2023
+1 - @ƒ - -1/00/0000
+2 -  - 00/00/0000
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Opcao invalida!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+0 - Natal - 25/12/2023
+1 - @ƒ - -1/00/0000
+2 -  - 00/00/0000
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Saindo...

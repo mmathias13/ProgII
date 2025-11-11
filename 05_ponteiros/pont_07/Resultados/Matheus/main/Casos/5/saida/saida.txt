@@ -1,0 +1,94 @@
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Evento cadastrado com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Eventos cadastrados:
+0 - iagem - 12/8/2003
+1 - orrida - 23/11/2017
+2 - nauguracao - 9/9/2009
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Indice invalido!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Indice invalido!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Data modificada com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Eventos cadastrados:
+0 - iagem - 12/8/2003
+1 - orrida - 29/6/2021
+2 - nauguracao - 9/9/2009
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Indices fora do intervalo!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Eventos trocados com sucesso!
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Saindo...

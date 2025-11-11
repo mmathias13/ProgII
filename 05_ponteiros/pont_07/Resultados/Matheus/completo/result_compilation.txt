@@ -1,0 +1,8 @@
+evento.c: In function ‘cadastrarEvento’:
+evento.c:13:15: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   13 |     scanf("%[^\n]", &eventos->nome);
+      |            ~~~^~    ~~~~~~~~~~~~~~
+      |               |     |
+      |               |     char (*)[50]
+      |               char *

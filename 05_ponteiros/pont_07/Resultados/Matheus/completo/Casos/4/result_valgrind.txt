@@ -1,0 +1,84 @@
+==95622== Memcheck, a memory error detector
+==95622== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==95622== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==95622== Command: Resultados/Matheus/completo/prog Resultados/Matheus/completo/Casos/4
+==95622== Parent PID: 95621
+==95622== 
+==95622== Conditional jump or move depends on uninitialised value(s)
+==95622==    at 0x483EF49: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==95622==    by 0x48C2D14: __vfprintf_internal (vfprintf-internal.c:1688)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Conditional jump or move depends on uninitialised value(s)
+==95622==    at 0x483EF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==95622==    by 0x48C2D14: __vfprintf_internal (vfprintf-internal.c:1688)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Conditional jump or move depends on uninitialised value(s)
+==95622==    at 0x48C1958: __vfprintf_internal (vfprintf-internal.c:1687)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Use of uninitialised value of size 8
+==95622==    at 0x48A569B: _itoa_word (_itoa.c:179)
+==95622==    by 0x48C1574: __vfprintf_internal (vfprintf-internal.c:1687)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Conditional jump or move depends on uninitialised value(s)
+==95622==    at 0x48A56AD: _itoa_word (_itoa.c:179)
+==95622==    by 0x48C1574: __vfprintf_internal (vfprintf-internal.c:1687)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Conditional jump or move depends on uninitialised value(s)
+==95622==    at 0x48C2228: __vfprintf_internal (vfprintf-internal.c:1687)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Conditional jump or move depends on uninitialised value(s)
+==95622==    at 0x48C16EE: __vfprintf_internal (vfprintf-internal.c:1687)
+==95622==    by 0x48ABD3E: printf (printf.c:33)
+==95622==    by 0x1092F9: exibirEventos (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109690: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== Syscall param write(buf) points to uninitialised byte(s)
+==95622==    at 0x4958297: write (write.c:26)
+==95622==    by 0x48D8E8C: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==95622==    by 0x48DA950: new_do_write (fileops.c:449)
+==95622==    by 0x48DA950: _IO_new_do_write (fileops.c:426)
+==95622==    by 0x48DA950: _IO_do_write@@GLIBC_2.2.5 (fileops.c:423)
+==95622==    by 0x48DCB31: _IO_flush_all_lockp (genops.c:706)
+==95622==    by 0x48DCD88: _IO_cleanup (genops.c:866)
+==95622==    by 0x48909B1: __run_exit_handlers (exit.c:130)
+==95622==    by 0x4890A5F: exit (exit.c:139)
+==95622==    by 0x486E089: (below main) (libc-start.c:342)
+==95622==  Address 0x4a3f30e is 718 bytes inside a block of size 4,096 alloc'd
+==95622==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==95622==    by 0x48CBD03: _IO_file_doallocate (filedoalloc.c:101)
+==95622==    by 0x48DBECF: _IO_doallocbuf (genops.c:347)
+==95622==    by 0x48DAF2F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==95622==    by 0x48D96B4: _IO_new_file_xsputn (fileops.c:1244)
+==95622==    by 0x48D96B4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==95622==    by 0x48CE4F7: puts (ioputs.c:40)
+==95622==    by 0x1094F9: imprimeMenu (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622==    by 0x109588: main (in /home/matheus/ProgII/05_ponteiros/pont_07/Resultados/Matheus/completo/prog)
+==95622== 
+==95622== 
+==95622== HEAP SUMMARY:
+==95622==     in use at exit: 0 bytes in 0 blocks
+==95622==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==95622== 
+==95622== All heap blocks were freed -- no leaks are possible
+==95622== 
+==95622== Use --track-origins=yes to see where uninitialised values come from
+==95622== For lists of detected and suppressed errors, rerun with: -s
+==95622== ERROR SUMMARY: 75 errors from 8 contexts (suppressed: 0 from 0)
