@@ -1,0 +1,28 @@
+utils.c: In function ‘LeNumeros’:
+utils.c:11:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   11 |         scanf("%d", &array[i]);
+      |         ^~~~~
+utils.c:11:9: warning: incompatible implicit declaration of built-in function ‘scanf’
+utils.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    2 | #include <limits.h>
+  +++ |+#include <stdio.h>
+    3 | 
+utils.c: In function ‘EncontraMaiorMenorMedia’:
+utils.c:25:9: error: ‘maior’ redeclared as different kind of symbol
+   25 |     int maior = INT_MIN, menor = INT_MAX;
+      |         ^~~~~
+utils.c:23:60: note: previous definition of ‘maior’ was here
+   23 | void EncontraMaiorMenorMedia(int *array, int tamanho, int *maior, int *menor, float *media){
+      |                                                       ~~~~~^~~~~
+utils.c:25:26: error: ‘menor’ redeclared as different kind of symbol
+   25 |     int maior = INT_MIN, menor = INT_MAX;
+      |                          ^~~~~
+utils.c:23:72: note: previous definition of ‘menor’ was here
+   23 | void EncontraMaiorMenorMedia(int *array, int tamanho, int *maior, int *menor, float *media){
+      |                                                                   ~~~~~^~~~~
+utils.c:28:13: error: invalid type argument of unary ‘*’ (have ‘int’)
+   28 |             *menor = array[i];
+      |             ^~~~~~
+utils.c:32:13: error: invalid type argument of unary ‘*’ (have ‘int’)
+   32 |             *maior = array[i];
+      |             ^~~~~~

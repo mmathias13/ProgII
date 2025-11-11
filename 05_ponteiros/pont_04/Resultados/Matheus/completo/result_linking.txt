@@ -1,0 +1,4 @@
+/usr/bin/ld: Resultados/Matheus/completo/main.o: in function `main':
+main.c:(.text+0x103): undefined reference to `LeNumeros'
+/usr/bin/ld: main.c:(.text+0x121): undefined reference to `EncontraMaiorMenorMedia'
+collect2: error: ld returned 1 exit status
