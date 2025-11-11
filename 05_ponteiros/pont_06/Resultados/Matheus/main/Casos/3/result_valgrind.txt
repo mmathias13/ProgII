@@ -1,0 +1,15 @@
+==75067== Memcheck, a memory error detector
+==75067== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==75067== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==75067== Command: Resultados/Matheus/main/prog Resultados/Matheus/main/Casos/3
+==75067== Parent PID: 75066
+==75067== 
+==75067== 
+==75067== HEAP SUMMARY:
+==75067==     in use at exit: 0 bytes in 0 blocks
+==75067==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==75067== 
+==75067== All heap blocks were freed -- no leaks are possible
+==75067== 
+==75067== For lists of detected and suppressed errors, rerun with: -s
+==75067== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
