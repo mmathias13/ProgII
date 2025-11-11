@@ -1,48 +1,15 @@
-==70479== Memcheck, a memory error detector
-==70479== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==70479== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==70479== Command: Resultados/Matheus/completo/prog Resultados/Matheus/completo/Casos/1
-==70479== Parent PID: 70478
-==70479== 
-==70479== Use of uninitialised value of size 8
-==70479==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
-==70479==    by 0x48C5352: scanf (scanf.c:38)
-==70479==    by 0x109376: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/completo/prog)
-==70479==    by 0x1092D6: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/completo/prog)
-==70479== 
-==70479== Invalid write of size 4
-==70479==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
-==70479==    by 0x48C5352: scanf (scanf.c:38)
-==70479==    by 0x109376: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/completo/prog)
-==70479==    by 0x1092D6: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/completo/prog)
-==70479==  Address 0xfefffba0 is not stack'd, malloc'd or (recently) free'd
-==70479== 
-==70479== 
-==70479== Process terminating with default action of signal 11 (SIGSEGV)
-==70479==  Access not within mapped region at address 0xFEFFFBA0
-==70479==    at 0x48CF146: __vfscanf_internal (vfscanf-internal.c:1976)
-==70479==    by 0x48C5352: scanf (scanf.c:38)
-==70479==    by 0x109376: LeDadosParaVetor (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/completo/prog)
-==70479==    by 0x1092D6: main (in /home/matheus/ProgII/05_ponteiros/pont_03/Resultados/Matheus/completo/prog)
-==70479==  If you believe this happened as a result of a stack
-==70479==  overflow in your program's main thread (unlikely but
-==70479==  possible), you can try to increase the size of the
-==70479==  main thread stack using the --main-stacksize= flag.
-==70479==  The main thread stack size used in this run was 8388608.
-==70479== 
-==70479== HEAP SUMMARY:
-==70479==     in use at exit: 4,096 bytes in 1 blocks
-==70479==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
-==70479== 
-==70479== LEAK SUMMARY:
-==70479==    definitely lost: 0 bytes in 0 blocks
-==70479==    indirectly lost: 0 bytes in 0 blocks
-==70479==      possibly lost: 0 bytes in 0 blocks
-==70479==    still reachable: 4,096 bytes in 1 blocks
-==70479==         suppressed: 0 bytes in 0 blocks
-==70479== Reachable blocks (those to which a pointer was found) are not shown.
-==70479== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==70479== 
-==70479== Use --track-origins=yes to see where uninitialised values come from
-==70479== For lists of detected and suppressed errors, rerun with: -s
-==70479== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==16311== Memcheck, a memory error detector
+==16311== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16311== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==16311== Command: Resultados/Matheus/completo/prog Resultados/Matheus/completo/Casos/1
+==16311== Parent PID: 16310
+==16311== 
+==16311== 
+==16311== HEAP SUMMARY:
+==16311==     in use at exit: 0 bytes in 0 blocks
+==16311==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==16311== 
+==16311== All heap blocks were freed -- no leaks are possible
+==16311== 
+==16311== For lists of detected and suppressed errors, rerun with: -s
+==16311== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
