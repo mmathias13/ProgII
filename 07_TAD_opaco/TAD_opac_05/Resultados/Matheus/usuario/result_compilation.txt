@@ -1,0 +1,14 @@
+usuario.c: In function ‘LeUsuario’:
+usuario.c:41:13: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
+   41 |     scanf("%s", user->cpf);
+      |            ~^   ~~~~~~~~~
+      |             |       |
+      |             char *  int *
+      |            %ls
+usuario.c: In function ‘ImprimeUsuario’:
+usuario.c:51:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
+   51 |     printf("CPF: %s\n", user->cpf);
+      |                  ~^     ~~~~~~~~~
+      |                   |         |
+      |                   char *    int *
+      |                  %ls
