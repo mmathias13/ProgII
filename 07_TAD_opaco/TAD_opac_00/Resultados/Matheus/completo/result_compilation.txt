@@ -1,0 +1,8 @@
+circulo.c: In function ‘Circulo_Cria’:
+circulo.c:30:18: warning: initialization of ‘tCirculo’ {aka ‘struct circulo *’} from incompatible pointer type ‘struct circulo **’ [-Wincompatible-pointer-types]
+   30 |     tCirculo c = (tCirculo *)malloc(sizeof(tCirculo));
+      |                  ^
+ponto.c: In function ‘Pto_Cria’:
+ponto.c:20:20: warning: initialization of ‘tPonto’ {aka ‘struct ponto *’} from incompatible pointer type ‘struct ponto **’ [-Wincompatible-pointer-types]
+   20 |     tPonto ponto = (tPonto *)malloc(sizeof(tPonto));
+      |                    ^

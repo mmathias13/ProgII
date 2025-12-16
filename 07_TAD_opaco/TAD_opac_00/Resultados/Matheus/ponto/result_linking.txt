@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Matheus/ponto/circulo.o: in function `Circulo_Interior':
+circulo.c:(.text+0x118): undefined reference to `Pto_Distancia'
+collect2: error: ld returned 1 exit status
