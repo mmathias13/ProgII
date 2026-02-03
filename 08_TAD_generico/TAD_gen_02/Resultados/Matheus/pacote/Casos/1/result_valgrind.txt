@@ -1,0 +1,15 @@
+==117791== Memcheck, a memory error detector
+==117791== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==117791== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==117791== Command: Resultados/Matheus/pacote/prog Resultados/Matheus/pacote/Casos/1
+==117791== Parent PID: 117790
+==117791== 
+==117791== 
+==117791== HEAP SUMMARY:
+==117791==     in use at exit: 0 bytes in 0 blocks
+==117791==   total heap usage: 24 allocs, 24 frees, 8,997 bytes allocated
+==117791== 
+==117791== All heap blocks were freed -- no leaks are possible
+==117791== 
+==117791== For lists of detected and suppressed errors, rerun with: -s
+==117791== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,6 @@
+==118102== Memcheck, a memory error detector
+==118102== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==118102== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==118102== Command: Resultados/Matheus/pacote/prog Resultados/Matheus/pacote/Casos/4
+==118102== Parent PID: 118101
+==118102== 
