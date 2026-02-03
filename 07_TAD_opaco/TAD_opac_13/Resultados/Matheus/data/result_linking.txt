@@ -1,0 +1,9 @@
+/usr/bin/ld: Resultados/Matheus/data/paciente.o: in function `LePaciente':
+paciente.c:(.text+0x12a): undefined reference to `LeData'
+/usr/bin/ld: Resultados/Matheus/data/paciente.o: in function `DebugPaciente':
+paciente.c:(.text+0x3f1): undefined reference to `ImprimeData'
+/usr/bin/ld: Resultados/Matheus/data/pad.o: in function `CalcMediaIdadePad':
+pad.c:(.text+0x26d): undefined reference to `CriaData'
+/usr/bin/ld: pad.c:(.text+0x2aa): undefined reference to `CalculaIdadeData'
+/usr/bin/ld: pad.c:(.text+0x2e1): undefined reference to `LiberaData'
+collect2: error: ld returned 1 exit status

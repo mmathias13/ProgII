@@ -1,0 +1,323 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Matheus
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Matheus:
+ - Diretório Resultados/Matheus criado com sucesso!
+ - Diretório Resultados/Matheus/main criado com sucesso!
+ - Diretório Resultados/Matheus/completo criado com sucesso!
+ - Diretório Resultados/Matheus/data criado com sucesso!
+ - Diretório Resultados/Matheus/paciente criado com sucesso!
+ - Diretório Resultados/Matheus/pad criado com sucesso!
+ - Diretório Resultados/Matheus/lesao criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Matheus/data.c' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/data.h' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/lesao.c' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/lesao.h' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/paciente.c' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/paciente.h' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/pad.c' encontrado!
+ - Arquivo esperado 'Respostas/Matheus/pad.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Matheus/main
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h Includes/pad.h do professor para a pasta Resultados/Matheus/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Matheus/main
+ - Removendo o main.o do professor da pasta Resultados/Matheus/main
+ - Copiando o Respostas/Matheus/main.c do aluno para a pasta Resultados/Matheus/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/data.c do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/data.h do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/lesao.c do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/lesao.h do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/main.c do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/paciente.c do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/paciente.h do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/pad.c do aluno para a pasta Resultados/Matheus/completo
+ - Copiando os Respostas/Matheus/pad.h do aluno para a pasta Resultados/Matheus/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/Matheus/data
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h Includes/pad.h do professor para a pasta Resultados/Matheus/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Matheus/data
+ - Removendo o data.o do professor da pasta Resultados/Matheus/data
+ - Copiando o Respostas/Matheus/data.c do aluno para a pasta Resultados/Matheus/data
+ - Pasta paciente:
+ - Copiando os Casos de teste para a pasta Resultados/Matheus/paciente
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h Includes/pad.h do professor para a pasta Resultados/Matheus/paciente
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Matheus/paciente
+ - Removendo o paciente.o do professor da pasta Resultados/Matheus/paciente
+ - Copiando o Respostas/Matheus/paciente.c do aluno para a pasta Resultados/Matheus/paciente
+ - Pasta pad:
+ - Copiando os Casos de teste para a pasta Resultados/Matheus/pad
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h Includes/pad.h do professor para a pasta Resultados/Matheus/pad
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Matheus/pad
+ - Removendo o pad.o do professor da pasta Resultados/Matheus/pad
+ - Copiando o Respostas/Matheus/pad.c do aluno para a pasta Resultados/Matheus/pad
+ - Pasta lesao:
+ - Copiando os Casos de teste para a pasta Resultados/Matheus/lesao
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h Includes/pad.h do professor para a pasta Resultados/Matheus/lesao
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Matheus/lesao
+ - Removendo o lesao.o do professor da pasta Resultados/Matheus/lesao
+ - Copiando o Respostas/Matheus/lesao.c do aluno para a pasta Resultados/Matheus/lesao
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Matheus/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Matheus/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta data ok!
+ - Arquivo de output gerado: Resultados/Matheus/data/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta paciente ok!
+ - Arquivo de output gerado: Resultados/Matheus/paciente/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pad ok!
+ - Arquivo de output gerado: Resultados/Matheus/pad/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta lesao ok!
+ - Arquivo de output gerado: Resultados/Matheus/lesao/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Matheus/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Matheus/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Matheus/data/result_linking.txt
+ - Pasta paciente:
+ - Gerando o binário prog linkando com o(s) arquivo(s) paciente/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Matheus/paciente/result_linking.txt
+ - Pasta pad:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pad/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Matheus/pad/result_linking.txt
+ - Pasta lesao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) lesao/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Matheus/lesao/result_linking.txt
+ - Arquivos Linkados: Erro! 5 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
+ -----
+ - Pasta data / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta data (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ -----
+ - Pasta paciente / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta paciente (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ -----
+ - Pasta pad / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pad / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pad / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pad / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pad / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pad / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta pad (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ -----
+ - Pasta lesao / Caso 1:
+ - Arquivo de output gerado: Resultados/Matheus/lesao/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 24, frees: 24, errors: 92 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 2:
+ - Arquivo de output gerado: Resultados/Matheus/lesao/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 52,363, frees: 52,354, errors: 52376 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 3:
+ - Arquivo de output gerado: Resultados/Matheus/lesao/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 11, frees: 11, errors: 22 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 4:
+ - Arquivo de output gerado: Resultados/Matheus/lesao/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 22, frees: 22, errors: 38 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 5:
+ - Arquivo de output gerado: Resultados/Matheus/lesao/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta lesao / Caso 6:
+ - Arquivo de output gerado: Resultados/Matheus/lesao/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 52,363, frees: 52,354, errors: 52395 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta lesao (máximo 1.67) - 10.00 de 60 - 16.00% de 1.67: .26.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Matheus
+ - Arquivos Esperados Corretos: 9 de 9
+ - Pastas Compiladas Corretamente: 6 de 6 
+ - Pastas Linkadas Corretamente: 1 de 6
+ - Teste main
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Matheus para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Matheus para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Matheus para o teste data: 0
+ - Teste paciente
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Matheus para o teste paciente: 0
+ - Teste pad
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Matheus para o teste pad: 0
+ - Teste lesao
+ - Resultados corretos: 1 de 6
+ - Valgrinds corretos: 1 de 6
+ - Nota de Matheus para o teste lesao: .26
+ - Nota de Matheus: 0+(0)+(.26)+(0)+(0)+(0)+(0)
+ - Nota de Matheus: .26
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
