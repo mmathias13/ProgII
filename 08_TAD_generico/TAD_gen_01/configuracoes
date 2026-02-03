@@ -3,6 +3,6 @@ Arquivos
 Valgrind
 	desconto=0.5
 Validações
-	main=3.34
-	completo=3.33
-	tadgen=3.33
+	main=0
+	completo=10.0
+	tadgen=0
