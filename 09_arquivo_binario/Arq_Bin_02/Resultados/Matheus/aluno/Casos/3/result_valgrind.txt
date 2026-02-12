@@ -1,0 +1,821 @@
+==329339== Memcheck, a memory error detector
+==329339== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==329339== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==329339== Command: Resultados/Matheus/aluno/prog Resultados/Matheus/aluno/Casos/3
+==329339== Parent PID: 329338
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CACB8: __printf_fp_l (printf_fp.c:396)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CACD2: __printf_fp_l (printf_fp.c:396)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C650A: __mpn_extract_double (dbl2mpn.c:56)
+==329339==    by 0x48CAFCE: __printf_fp_l (printf_fp.c:396)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB01E: __printf_fp_l (printf_fp.c:437)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB041: __printf_fp_l (printf_fp.c:437)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB902: __printf_fp_l (printf_fp.c:437)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB071: __printf_fp_l (printf_fp.c:438)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB094: __printf_fp_l (printf_fp.c:438)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB096: __printf_fp_l (printf_fp.c:438)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB0BF: __printf_fp_l (printf_fp.c:439)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB0E4: __printf_fp_l (printf_fp.c:439)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB0E6: __printf_fp_l (printf_fp.c:439)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB104: __printf_fp_l (printf_fp.c:446)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB11D: __printf_fp_l (printf_fp.c:463)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CC8B2: __printf_fp_l (printf_fp.c:471)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4D6C: __mpn_lshift (lshift.S:59)
+==329339==    by 0x48CC8B6: __printf_fp_l (printf_fp.c:471)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4D6F: __mpn_lshift (lshift.S:60)
+==329339==    by 0x48CC8B6: __printf_fp_l (printf_fp.c:471)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CC8E2: __printf_fp_l (printf_fp.c:476)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CC8FA: __printf_fp_l (printf_fp.c:477)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB15F: __printf_fp_l (printf_fp.c:479)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48527D6: memset (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB178: __printf_fp_l (printf_fp.c:479)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x485281A: memset (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB178: __printf_fp_l (printf_fp.c:479)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x4852824: memset (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB178: __printf_fp_l (printf_fp.c:479)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x485283A: memset (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB178: __printf_fp_l (printf_fp.c:479)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB21E: __printf_fp_l (printf_fp.c:488)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB1DF: __printf_fp_l (printf_fp.c:535)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48528A9: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB1DF: __printf_fp_l (printf_fp.c:535)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x4852A37: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB1DF: __printf_fp_l (printf_fp.c:535)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x4852990: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB1DF: __printf_fp_l (printf_fp.c:535)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB1EB: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB284: __printf_fp_l (printf_fp.c:554)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x485298D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB284: __printf_fp_l (printf_fp.c:554)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x4852990: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB284: __printf_fp_l (printf_fp.c:554)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x485299B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48CB284: __printf_fp_l (printf_fp.c:554)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB28D: __printf_fp_l (printf_fp.c:555)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C5428: __mpn_mul_1 (mul_1.S:36)
+==329339==    by 0x48C51EC: __mpn_mul (mul.c:81)
+==329339==    by 0x48CB248: __printf_fp_l (printf_fp.c:541)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C54B3: __mpn_mul_1 (mul_1.S:85)
+==329339==    by 0x48C51EC: __mpn_mul (mul.c:81)
+==329339==    by 0x48CB248: __printf_fp_l (printf_fp.c:541)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C5522: __mpn_mul_1 (mul_1.S:117)
+==329339==    by 0x48C51EC: __mpn_mul (mul.c:81)
+==329339==    by 0x48CB248: __printf_fp_l (printf_fp.c:541)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C51F9: __mpn_mul (mul.c:83)
+==329339==    by 0x48CB248: __printf_fp_l (printf_fp.c:541)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB269: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CB1F1: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4636: __mpn_cmp (cmp.c:37)
+==329339==    by 0x48CC1EF: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C463A: __mpn_cmp (cmp.c:38)
+==329339==    by 0x48CC1EF: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4641: __mpn_cmp (cmp.c:39)
+==329339==    by 0x48CC1EF: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CC1F6: __printf_fp_l (printf_fp.c:551)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C549C: __mpn_mul_1 (mul_1.S:77)
+==329339==    by 0x48C51EC: __mpn_mul (mul.c:81)
+==329339==    by 0x48CB248: __printf_fp_l (printf_fp.c:541)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C54FD: __mpn_mul_1 (mul_1.S:106)
+==329339==    by 0x48C51EC: __mpn_mul (mul.c:81)
+==329339==    by 0x48CB248: __printf_fp_l (printf_fp.c:541)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB2DA: __printf_fp_l (printf_fp.c:577)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB2E0: __printf_fp_l (printf_fp.c:573)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB2FF: __printf_fp_l (printf_fp.c:573)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CB308: __printf_fp_l (printf_fp.c:573)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CCA51: __printf_fp_l (printf_fp.c:596)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CCA60: __printf_fp_l (printf_fp.c:596)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4EC0: __mpn_rshift (rshift.S:80)
+==329339==    by 0x48CCAA3: __printf_fp_l (printf_fp.c:636)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4F20: __mpn_rshift (rshift.S:108)
+==329339==    by 0x48CCAA3: __printf_fp_l (printf_fp.c:636)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4E39: __mpn_rshift (rshift.S:31)
+==329339==    by 0x48CCAC4: __printf_fp_l (printf_fp.c:640)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4E60: __mpn_rshift (rshift.S:45)
+==329339==    by 0x48CCAC4: __printf_fp_l (printf_fp.c:640)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4E8A: __mpn_rshift (rshift.S:61)
+==329339==    by 0x48CCAC4: __printf_fp_l (printf_fp.c:640)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4EC0: __mpn_rshift (rshift.S:80)
+==329339==    by 0x48CCAC4: __printf_fp_l (printf_fp.c:640)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4ED9: __mpn_rshift (rshift.S:87)
+==329339==    by 0x48CCAC4: __printf_fp_l (printf_fp.c:640)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4F20: __mpn_rshift (rshift.S:108)
+==329339==    by 0x48CCAC4: __printf_fp_l (printf_fp.c:640)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CCAD9: __printf_fp_l (printf_fp.c:644)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CCADF: __printf_fp_l (printf_fp.c:644)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CA502: hack_digit (printf_fp.c:183)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4AB9: __mpn_divrem (divrem.c:90)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4ABD: __mpn_divrem (divrem.c:92)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4ACA: __mpn_divrem (divrem.c:95)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4AD8: __mpn_divrem (divrem.c:101)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4AE1: __mpn_divrem (divrem.c:101)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4B31: __mpn_divrem (divrem.c:121)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4B53: __mpn_divrem (divrem.c:136)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4B55: __mpn_divrem (divrem.c:136)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4B6C: __mpn_divrem (divrem.c:122)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4B80: __mpn_divrem (divrem.c:101)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4B86: __mpn_divrem (divrem.c:101)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C4C41: __mpn_divrem (divrem.c:151)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CA567: hack_digit (printf_fp.c:189)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CA56B: hack_digit (printf_fp.c:190)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CA583: hack_digit (printf_fp.c:193)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CA598: hack_digit (printf_fp.c:193)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C5428: __mpn_mul_1 (mul_1.S:36)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C54B3: __mpn_mul_1 (mul_1.S:85)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C5522: __mpn_mul_1 (mul_1.S:117)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CA51A: hack_digit (printf_fp.c:205)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CA52C: hack_digit (printf_fp.c:206)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4B37: __mpn_divrem (divrem.c:111)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48C4B5A: __mpn_divrem (divrem.c:136)
+==329339==    by 0x48CA557: hack_digit (printf_fp.c:187)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CA592: hack_digit (printf_fp.c:193)
+==329339==    by 0x48CB5B3: __printf_fp_l (printf_fp.c:942)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C5428: __mpn_mul_1 (mul_1.S:36)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB65B: __printf_fp_l (printf_fp.c:966)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C544C: __mpn_mul_1 (mul_1.S:52)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB65B: __printf_fp_l (printf_fp.c:966)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CA51A: hack_digit (printf_fp.c:205)
+==329339==    by 0x48CB65B: __printf_fp_l (printf_fp.c:966)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C5428: __mpn_mul_1 (mul_1.S:36)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB9CA: __printf_fp_l (printf_fp.c:979)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48C544C: __mpn_mul_1 (mul_1.S:52)
+==329339==    by 0x48CA516: hack_digit (printf_fp.c:204)
+==329339==    by 0x48CB9CA: __printf_fp_l (printf_fp.c:979)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CA51A: hack_digit (printf_fp.c:205)
+==329339==    by 0x48CB9CA: __printf_fp_l (printf_fp.c:979)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Use of uninitialised value of size 8
+==329339==    at 0x48CCA28: __printf_fp_l (printf_fp.c:983)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CCA2C: __printf_fp_l (printf_fp.c:983)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CBCD5: __printf_fp_l (printf_fp.c:1166)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CBF15: __printf_fp_l (printf_fp.c:1228)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Conditional jump or move depends on uninitialised value(s)
+==329339==    at 0x48CBEFB: __printf_fp_l (printf_fp.c:1230)
+==329339==    by 0x48E692C: __printf_fp_spec (vfprintf-internal.c:354)
+==329339==    by 0x48E692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== Syscall param write(buf) points to uninitialised byte(s)
+==329339==    at 0x49848F7: write (write.c:26)
+==329339==    by 0x48FAEEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==329339==    by 0x48FC9E0: new_do_write (fileops.c:448)
+==329339==    by 0x48FC9E0: _IO_new_do_write (fileops.c:425)
+==329339==    by 0x48FC9E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==329339==    by 0x48FE9C1: _IO_flush_all_lockp (genops.c:706)
+==329339==    by 0x48FEB7D: _IO_cleanup (genops.c:866)
+==329339==    by 0x48B5541: __run_exit_handlers (exit.c:134)
+==329339==    by 0x48B560F: exit (exit.c:143)
+==329339==    by 0x4899D96: (below main) (libc_start_call_main.h:74)
+==329339==  Address 0x4a9ea73 is 51 bytes inside a block of size 4,096 alloc'd
+==329339==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==329339==    by 0x48EEBA3: _IO_file_doallocate (filedoalloc.c:101)
+==329339==    by 0x48FDCDF: _IO_doallocbuf (genops.c:347)
+==329339==    by 0x48FCF5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==329339==    by 0x48FB6D4: _IO_new_file_xsputn (fileops.c:1243)
+==329339==    by 0x48FB6D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==329339==    by 0x48E514C: outstring_func (vfprintf-internal.c:239)
+==329339==    by 0x48E514C: __vfprintf_internal (vfprintf-internal.c:1263)
+==329339==    by 0x48D079E: printf (printf.c:33)
+==329339==    by 0x1095D3: main (in /home/matheus/ProgII/09_arquivo_binario/Arq_Bin_02/Resultados/Matheus/aluno/prog)
+==329339== 
+==329339== 
+==329339== HEAP SUMMARY:
+==329339==     in use at exit: 0 bytes in 0 blocks
+==329339==   total heap usage: 13 allocs, 13 frees, 14,036 bytes allocated
+==329339== 
+==329339== All heap blocks were freed -- no leaks are possible
+==329339== 
+==329339== Use --track-origins=yes to see where uninitialised values come from
+==329339== For lists of detected and suppressed errors, rerun with: -s
+==329339== ERROR SUMMARY: 734 errors from 100 contexts (suppressed: 0 from 0)

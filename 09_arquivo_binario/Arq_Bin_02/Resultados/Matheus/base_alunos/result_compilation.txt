@@ -1,0 +1,7 @@
+base_alunos.c: In function ‘CriarBaseAlunos’:
+base_alunos.c:18:28: warning: initialization of ‘tBaseAlunos **’ {aka ‘struct BaseAlunos **’} from incompatible pointer type ‘tBaseAlunos *’ {aka ‘struct BaseAlunos *’} [-Wincompatible-pointer-types]
+   18 |     tBaseAlunos **alunos = (tBaseAlunos*)malloc(sizeof(tBaseAlunos));
+      |                            ^
+base_alunos.c:22:12: warning: returning ‘tBaseAlunos **’ {aka ‘struct BaseAlunos **’} from a function with incompatible return type ‘tBaseAlunos *’ {aka ‘struct BaseAlunos *’} [-Wincompatible-pointer-types]
+   22 |     return alunos;
+      |            ^~~~~~
